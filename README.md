@@ -1,4 +1,4 @@
-# FPSAutomaticAiming——基于YoloV5的FPS类游戏的自动瞄准AI
+# FPSAutomaticAiming——基于YOLOV5的FPS类游戏自动瞄准AI
 # 声明（Statement）:
 本项目仅限于学习交流，不可用于非法用途，包括但不限于：用于游戏外挂等，使用本项目产生的任何后果与本人无关！
 # 简介
@@ -143,7 +143,7 @@ prefix: D:\Miniconda3\envs\yolo
 > 本项目中控制鼠标移动时使用了“易键鼠”。（也可以自行修改相关代码，使用pyautogui，pywin32等库来控制键盘鼠标）
 # 使用方法
   > 1.训练。
-  > 本项目的训练方法请查看yolov5项目。
+  > 本项目的训练方法请查看[yolov5](https://github.com/ultralytics/yolov5)项目。
 
   > 2.使用。
   > - 启动在```utils/CFUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
