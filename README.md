@@ -1,10 +1,10 @@
-# FPSAutomaticAiming
+# FPSAutomaticAiming——基于YoloV5的FPS类游戏的自动瞄准AI
 # 声明（Statement）:
 本项目仅限于学习交流，不可用于非法用途，包括但不限于：用于游戏外挂等，使用本项目产生的任何后果与本人无关！
 # 简介
-  本项目基于yolov5,实现了一款FPS类游戏的自瞄AI。
+  本项目基于yolov5,实现了一款FPS类游戏（CF、CSGO等）的自瞄AI，本项目旨在使用现有网络结构实现一个完整的落地项目，仅供人工智能自动控制等方面的学习研究，不可用于非法用途！！！
 # 环境配置
-1.软件环境
+1.软件环境  
   使用conda导入```yolo.yaml```。
   ```
   name: yolo
@@ -138,10 +138,9 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - thop==0.0.31-2005241907
 prefix: D:\Miniconda3\envs\yolo
-
   ```
-2.硬件环境
-  本项目中控制鼠标移动时使用了“易键鼠”。（也可以使用pyautogui，pywin32等库来控制键盘鼠标）
+2.硬件环境  
+> 本项目中控制鼠标移动时使用了“易键鼠”。（也可以自行修改相关代码，使用pyautogui，pywin32等库来控制键盘鼠标）
 # 使用方法
   > 1.训练。
   > 本项目的训练方法请查看yolov5项目。
@@ -149,4 +148,4 @@ prefix: D:\Miniconda3\envs\yolo
   > 2.使用。
   > - 启动在```utils/CFUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
   > - 如需更换模型，请在```CFdetect.py```文件中修改。
-  > - 直接运行```Main.py```启动本项目。
+  > - 修改好相关参数后直接运行```Main.py```启动本项目。
