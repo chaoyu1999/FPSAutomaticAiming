@@ -146,6 +146,6 @@ prefix: D:\Miniconda3\envs\yolo
   > - 本项目的训练方法请查看[yolov5](https://github.com/ultralytics/yolov5)相关文档。
 
   > 2.使用。
-  > - 启动在```utils/CFUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
-  > - 如需更换模型，请在```CFdetect.py```文件中修改。
+  > - 启动前在```utils/CFUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
+  > - 如需更换模型，请在```CFdetect.py```文件中修改模型位置。
   > - 修改好相关参数后直接运行```Main.py```启动本项目。
