@@ -142,8 +142,8 @@ prefix: D:\Miniconda3\envs\yolo
 2.硬件环境  
 > 本项目中控制鼠标移动时使用了“易键鼠”。（也可以自行修改相关代码，使用pyautogui，pywin32等库来控制键盘鼠标）
 # 使用方法
-  > 1.训练。
-  > 本项目的训练方法请查看[yolov5](https://github.com/ultralytics/yolov5)项目。
+  > 1.训练模型。  
+  > - 本项目的训练方法请查看[yolov5](https://github.com/ultralytics/yolov5)相关文档。
 
   > 2.使用。
   > - 启动在```utils/CFUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
