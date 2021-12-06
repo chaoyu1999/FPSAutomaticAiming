@@ -1,8 +1,0 @@
-train: dataset/images/train/
-val: dataset/images/val/
-
-# number of classes
-nc: 2
-
-# class names
-names: ['person','head']
