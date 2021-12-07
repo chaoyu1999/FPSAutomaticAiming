@@ -14,7 +14,8 @@
 
   > 2.使用。
   > - 启动前在```utils/FPSUtils.py```文件中修改屏幕分辨率，检测框范围等参数。
-  > - 请在```FPSdetect.py```文件中修改模型位置。
+  > - 请在```FPSdetect.py```文件中修改模型位置:```model = attempt_load('此处改为自己的路径\FPSAutomaticAiming\yolov5s.pt', map_location=device)  # load FP32 model```。
+  > - 在```Main.py```中修改鼠标移动的相关代码为自己的鼠标移动代码。
   > - 修改好相关参数后直接运行```Main.py```启动本项目。
 
 
